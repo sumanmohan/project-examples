@@ -1,3 +1,4 @@
 FROM ubuntu:18.04
-COPY . /app
+ADD hello /
+CMD ["/hello"]
 
